@@ -1,0 +1,109 @@
+.container {
+  /* padding: 20px;*/
+  /*-webkit-display: -webkit-box;
+  -webkit-display: -webkit-flex;
+  /*display: -webkit-box;*/
+  /*display: -ms-flexbox;*/
+  display: flex;
+  background-color: #594255;
+  flex-direction: row;
+}
+
+.cardsecundario {
+  background-color: #fff;
+  width: 903px;
+  height: 500px;
+  /*margin: 1%;*/
+  text-align: center;
+  background-image: url(/img/high-tech-technology-geometric-connection-system-background_29971-315.jpg);
+}
+
+.cardprincipal {
+  display: flex;
+  background-color: white;
+  width: 445px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /*border-style: dotted;*/
+}
+
+.iconeempresa {
+  width: 128px;
+  height: 128px;
+  /*border-style: dotted;*/
+  display: flex;
+  justify-content: center;
+  margin-left: 2.35em;
+}
+
+.textoprincipal {
+  align-items: center;
+  justify-content: center;
+  /* border-style: dotted;*/
+  margin-top: 3em;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 204px;
+  text-align: center;
+}
+
+.cardformulario {
+  width: 321px;
+  height: 175px;
+  /*border-style: dotted;*/
+  padding: 10px 10px 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.botaoentrar {
+  justify-content: center;
+  margin-top: 0.1em;
+}
+
+.cardbotaoentrar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 1em;
+  /*border-style: dotted;*/
+}
+
+.scales {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+
+#login {
+  margin-bottom: 1em;
+  width: 293px;
+  border-radius: 1em;
+  background-color: burlywood;
+}
+
+#password {
+  margin-bottom: 0.5em;
+  width: 293px;
+  border-radius: 1em;
+  background-color: burlywood;
+}
+
+input {
+  padding: 10px;
+  border-style: none;
+}
+
+button {
+  width: 310px;
+  border-radius: 1em;
+  display: flex;
+  font-size: 17px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
